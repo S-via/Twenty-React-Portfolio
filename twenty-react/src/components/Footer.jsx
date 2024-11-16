@@ -2,7 +2,8 @@
 function Footer () {
     return (
         <footer>
-            My portfolio
+            Footer .. 
+            Git Hub , LinkedIn, Stackoverflow
         </footer>
     )
 }

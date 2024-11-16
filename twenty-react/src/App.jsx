@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 
 //pages
 import AboutMePage from './pages/AboutmePage';
+import Portfolio from './pages/PortfolioPage';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<AboutMePage />} />
+            <Route path="/portfolio" element={<Portfolio />} />
           </Routes>
 
 
@@ -32,6 +34,5 @@ function App() {
 
 export default App
 
-/* import Portfolio from './pages/PortfolioPage';
-import Contact from './pages/ContactPage';
-import Resume from './pages/ResumePage'; */
+/* import Contact from './pages/ContactPage';
+import Resume from './pages/ResumePage';  */

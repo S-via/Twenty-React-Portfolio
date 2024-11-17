@@ -1,7 +1,7 @@
 export default function AboutmePage () {
     return (
 <div>
-        <h2>About me heading</h2>
+        <h2>Heading</h2>
         {/* Photo avatar goes here */}
         <p>
             This is about me content

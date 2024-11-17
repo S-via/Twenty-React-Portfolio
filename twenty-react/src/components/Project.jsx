@@ -6,7 +6,7 @@ export default function Project({image,deployed,repo}){
     
     return (
         <div>
-            <h3>Portfolio Title</h3>
+            <h2>Portfolio Heading</h2>
             <div>
         
             <img src ={image} alt='project'/>

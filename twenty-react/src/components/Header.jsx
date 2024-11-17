@@ -6,7 +6,7 @@ import Navigation from "./Navigation";
 function Header() {
     return (
         <header>
-            <h1>My Portfolio</h1>
+            <h1>Silvia</h1>
             <Navigation/>
         </header>
     )

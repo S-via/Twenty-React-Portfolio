@@ -1,30 +1,27 @@
 /* titled images of six of the developer’s applications 
 with links to both the deployed applications and the corresponding GitHub repositories  */
+// PARENT 
 import React from 'react';
+import Project from '../components/Project';
 import myImage from '../assets/blogyou.png'
-export default function Portfolio() {
-    return(
-        <div>
-            <h3>Portoflio Title</h3>
-           {/*  add hover css over images */}
-           {/* fix sizing image  */}
-            <a href ="https://s-via.github.io/Four-Personal-Blog/">
-            <img src ={myImage} atl='myImage'/>
-            </a>
-            <p> 
-                this is portfolio page content 
-                this is portfolio page content 
-                this is portfolio page content 
-                this is portfolio page content 
-                this is portfolio page content 
-                this is portfolio page content 
-                this is portfolio page content 
-                this is portfolio page content 
-                this is portfolio page content 
-                this is portfolio page content 
-                this is portfolio page content 
+// expert learning example below 
 
-            </p>
+export default function Portfolio() {
+
+    const card = {
+        image: myImage,
+        deployed: 'https://s-via.github.io/Four-Personal-Blog/',
+        repo: 'https://github.com/S-via/Four-Personal-Blog'
+
+    }
+    return (
+        <div>
+            <Project
+            image={card.image}
+            deployed={card.deployed}
+            repo={card.repo}/>
+            
+
         </div>
     )
 }

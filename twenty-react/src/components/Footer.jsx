@@ -3,7 +3,10 @@ function Footer () {
     return (
         <footer>
             Footer .. 
-            Git Hub , LinkedIn, Stackoverflow
+            <a href="https://github.com/S-via">GitHub__</a>
+            <a href="https://www.linkedin.com/in/silvia-villalba-48a28b2b2/">LinkedIn__</a>
+            <a href="">StackOverFlow</a>
+            
         </footer>
     )
 }

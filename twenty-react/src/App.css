@@ -8,22 +8,37 @@
 .main {
 background-color: aquamarine;
 }
-
 .nav-bar 
 {
 background-color: aquamarine;
 }
-h1 {
-  float: left;
-}
-ul {
-  float:right;
-}
 li {
   display:inline;
 }
+li a {
+  padding: 0px 77px;
+}
 li a:hover {
 background-color: white;
+}
+.aboutme-container {
+  display: block;
+  text-align: justify;
+}
+.contact-container {
+  display: block;
+  text-align: justify;
+  
+}
+.portfolio-container {
+  display: block;
+  text-align: justify;
+  
+}
+.resume-container {
+  display: block;
+  text-align: justify;
+
 }
 
 .logo {

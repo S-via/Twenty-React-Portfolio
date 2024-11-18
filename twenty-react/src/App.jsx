@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import AboutMePage from './pages/AboutmePage';
 import Portfolio from './pages/PortfolioPage';
 import Contact from './pages/ContactPage';
+import Resume from './pages/ResumePage';   
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/" element={<AboutMePage />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
 
 
@@ -35,5 +37,3 @@ function App() {
 }
 
 export default App
-
-/* import Resume from './pages/ResumePage';   */

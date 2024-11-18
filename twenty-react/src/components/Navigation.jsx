@@ -6,7 +6,7 @@ import React from 'react';
 // fill in Link with pages logic !!!!!!!!
 function Navigation() {
     return (
-        <nav>
+        <nav className='nav-bar'>
             <ul>
                 <li><Link to="/"> About Me </Link></li>
                 <li><Link to="/portfolio"> Portfolio </Link></li>

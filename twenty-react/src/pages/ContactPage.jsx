@@ -43,7 +43,7 @@ export default function ContactPage() {
 
     return (
         // what it will return 
-        <div>
+        <div className='contact-container'>
             <h2>Contact Heading</h2>
             <form onSubmit={handlerSubmit}>
                 Name:

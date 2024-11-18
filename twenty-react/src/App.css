@@ -5,6 +5,27 @@
   text-align: center;
 }
 
+.main {
+background-color: aquamarine;
+}
+
+.nav-bar 
+{
+background-color: aquamarine;
+}
+h1 {
+  float: left;
+}
+ul {
+  float:right;
+}
+li {
+  display:inline;
+}
+li a:hover {
+background-color: white;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

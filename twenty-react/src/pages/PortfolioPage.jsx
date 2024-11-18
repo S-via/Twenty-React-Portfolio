@@ -15,7 +15,7 @@ export default function Portfolio() {
 
     }
     return (
-        <div>
+        <div className='portfolio-container'>
             <Project
             image={card.image}
             deployed={card.deployed}

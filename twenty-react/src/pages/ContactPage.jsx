@@ -27,7 +27,7 @@ export default function ContactPage() {
         console.log('form submitted')
         if (!formData.name || !formData.email || !formData.message) {
             console.log('before return');
-            setAlert('Fields are required!')
+            setAlert('Message field is required!')
             return;
         }
 
@@ -52,6 +52,7 @@ export default function ContactPage() {
                     name='name'
                     value={formData.name}
                     onChange={handleChange}
+                    
                 />
                 Email:
                 <input
@@ -59,6 +60,7 @@ export default function ContactPage() {
                     name='email'
                     value={formData.email}
                     onChange={handleChange}
+                    
                 />
                 Message:
                 <input
@@ -66,8 +68,9 @@ export default function ContactPage() {
                     name='message'
                     value={formData.message}
                     onChange={handleChange}
+                    
                 />
-                {alert && <div style={{ color: 'red' }}>{alert}</div>}
+                {alert && <div style={{ color: 'blue' }}>{alert}</div>}
 
                 <button type="submit">
                     Submit

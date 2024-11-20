@@ -35,6 +35,10 @@ li a {
   text-align: justify;
 
 }
+img{
+  width:200px;
+  
+}
 
 .portfolio-container {
   display: block;

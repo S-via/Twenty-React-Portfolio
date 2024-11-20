@@ -9,9 +9,9 @@ export default function Project({image,deployed,repo}){
             <h2>Portfolio Heading</h2>
             <div className='img-container'>
         
+            <a href ={deployed} alt='deployed'>deployed</a>
+            <a href ={repo} target="blank" >Repo</a>
             <img src ={image} alt='project'/>
-            <a href ={deployed}> Deployed</a>
-            <a href ={repo} target="blank" >Repo</a> 
 
             </div>
             {/*  add hover css over images */}

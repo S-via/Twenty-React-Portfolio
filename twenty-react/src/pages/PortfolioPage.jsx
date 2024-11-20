@@ -4,6 +4,11 @@ with links to both the deployed applications and the corresponding GitHub reposi
 import React from 'react';
 import Project from '../components/Project';
 import myImage from '../assets/blogyou.png'
+import myImage2 from '../assets/'
+import myImage3 from '../assets/'
+import myImage4 from '../assets/'
+import myImage5 from '../assets/'
+
 // expert learning example below 
 
 export default function Portfolio() {

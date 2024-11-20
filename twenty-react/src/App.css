@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+#portfolio
+{
+display: flex;
+}
 a:hover {
   background-color: white;
 }

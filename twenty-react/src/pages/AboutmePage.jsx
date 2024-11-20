@@ -1,14 +1,13 @@
-export default function AboutmePage () {
+export default function AboutmePage() {
     return (
-<div className="aboutme-container">
-        <h2>Heading</h2>
-        {/* Photo avatar goes here */}
-        <p>
-            This is about me content
-            This is about me content
-           
+        <div className="aboutme-container">
+            <h2>About Me</h2>
+            {/* Photo avatar goes here */}
+            <p>
+              
 
-        </p>
+
+            </p>
         </div>
     )
 }

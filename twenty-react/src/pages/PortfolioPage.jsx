@@ -44,8 +44,10 @@ export default function Portfolio() {
 
 
     return (
-        <div className='portfolio-container'>
+        <div>
             <h2>Portfolio</h2>
+
+        <div className='portfolio-container'>
             { card.map((card,index) => (
             <Project
             key={index}
@@ -55,6 +57,7 @@ export default function Portfolio() {
                 />))}
 
 
+        </div>
         </div>
     )
 }

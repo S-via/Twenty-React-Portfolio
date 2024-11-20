@@ -2,21 +2,22 @@
 import React from 'react';
 
 
-export default function Project({image,deployed,repo}){
-    
+export default function Project({ image, deployed, repo }) {
+
     return (
-        <div>
-           
+        <div className='card-images'>
+
+            <div className='links'>
+                <a href={deployed} alt='deployed'>deployed</a>
+                <a href={repo} alt="repo" target="blank" >Repo</a>
+            </div>
             <div className='img-container'>
-        
-            <a href ={deployed} alt='deployed'>deployed</a>
-            <a href ={repo} target="blank" >Repo</a>
-            <img src ={image} alt='project'/>
+                <img src={image} alt='project' />
 
             </div>
             {/*  add hover css over images */}
             {/* fix sizing image  */}
-           
+
         </div>
     );
 }

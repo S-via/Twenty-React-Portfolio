@@ -17,6 +17,3 @@ function Navigation() {
     )
 }
 export default Navigation;
-
-{/* 
-<li><Link to="/resume"> Resume </Link></li> */}

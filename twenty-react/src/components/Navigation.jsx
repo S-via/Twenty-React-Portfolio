@@ -6,12 +6,13 @@ import React from 'react';
 // fill in Link with pages logic !!!!!!!!
 function Navigation() {
     return (
+        
         <nav className='nav-bar'>
-            <ul>
-                <li><Link to="/"> About Me </Link></li>
-                <li><Link to="/portfolio"> Portfolio </Link></li>
-                <li><Link to="/contact"> Contact </Link></li>
-                <li><Link to="/resume"> Resume</Link></li>
+            <ul className="nav nav-tabs">
+                <li className="nav-item"><Link class="nav-link active" aria-current="page" to="/"> About Me </Link></li>
+                <li className="nav-item"><Link class="nav-link active" aria-current="page" to="/portfolio"> Portfolio </Link></li>
+                <li className="nav-item"><Link  class="nav-link active" aria-current="page"to="/contact"> Contact </Link></li>
+                <li className="nav-item"><Link class="nav-link active" aria-current="page" to="/resume"> Resume</Link></li>
             </ul>
         </nav>
     )

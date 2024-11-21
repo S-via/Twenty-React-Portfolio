@@ -37,8 +37,16 @@ li a {
 .contact-container {
   display: block;
   text-align: justify;
-
+  
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width:53%;
+}
+
 img{
   width:35%;
   height:auto;
@@ -68,10 +76,4 @@ img{
 
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  width:53%;
-}
 

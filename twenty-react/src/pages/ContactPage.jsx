@@ -46,31 +46,46 @@ export default function ContactPage() {
         <div className='contact-container'>
             <h2>Contact Heading</h2>
             <form onSubmit={handlerSubmit}>
-                Name:
-                <input
-                    type='text'
-                    name='name'
-                    value={formData.name}
-                    onChange={handleChange}
+
+            
+                <div className='mb-3'>
+                    <input className='form-control'
+                    placeholder='Your Name'
+                        type='text'
+                        name='name'
+                        value={formData.name}
+                        onChange={handleChange}
+
+                    />
                     
-                />
-                Email:
-                <input
+                </div>
+
+              
+                <div className='mb-3'>
+                    <input className='form-control'
+                    placeholder='Valid email'
                     type='email'
                     name='email'
                     value={formData.email}
                     onChange={handleChange}
                     
-                />
-                Message:
-                <input
-                    type='text'
-                    name='message'
-                    value={formData.message}
-                    onChange={handleChange}
+                    />
+                   
+                </div>
+
+               
+                <div className='mb-3'>
+                    <input className='form-control'
+                    placeholder='Your Message'
+                        type='text'
+                        name='message'
+                        value={formData.message}
+                        onChange={handleChange}
+
+                    />
                     
-                />
-                {alert && <div style={{ color: 'blue' }}>{alert}</div>}
+                    {alert && <div style={{ color: 'blue' }}>{alert}</div>}
+                </div>
 
                 <button type="submit">
                     Submit

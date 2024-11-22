@@ -8,7 +8,7 @@ export default function Project({ image, deployed, repo }) {
         <div className='card-images'>
 
             <div className='links'>
-                <a href={deployed} alt='deployed'>deployed</a>
+                <a href={deployed} alt='deployed'>Deployed</a>
                 <a href={repo} alt="repo" target="blank" >Repo</a>
             </div>
             <div className='img-container'>

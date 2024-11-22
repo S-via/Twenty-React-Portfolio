@@ -1,11 +1,4 @@
-
-#portfolio
-{
-display: flex;
-}
-a:hover {
-  opacity: 0.5;
-}
+/* Should be in root */
 
 .main header {
   background-image: url(./assets/backroundbricks.jpg);
@@ -22,12 +15,12 @@ li {
 li a {
   padding: 0px 77px;
 }
-
+/* AboutmePage.jsx */
 .aboutme-container {
   display: block;
   text-align: justify;
 }
-
+/* ContactPage.jsx */
 .contact-container {
   display: block;
   text-align: justify;
@@ -41,12 +34,16 @@ form {
   width:53%;
 }
 
+/* PortofolioPage */
+#portfolio
+{
+  display: flex;
+}
 img{
   width:35%;
   height:auto;
   
 }
-
 .portfolio-container {
   display:grid;
   padding:20px;
@@ -54,16 +51,31 @@ img{
  
 
 }
+/* Project.jsx */
 .card-images{
+  position: relative;
   width:300px;
+  margin:20px;
+  border: 1px solid #5E7EB1;
+  
 
 }
 .card-images:hover{
   transform:scale(1.05);
 
 }
+.links {
+  border-top: 1px solid black;
+}
+.links a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  opacity: 0.5;
+}
 
 
+/* resume css */
 .resume-container {
   display: block;
   text-align: justify;

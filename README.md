@@ -2,9 +2,10 @@
 Single-page application of deployed React portfolio that conatins work samples
 
 ## Table of contents 
--[Description]()
--[Technologies Used]()
--[Usage]()
+
+-[Description](#description)
+-[TechnologiesUsed](#techonologies-used)
+-[Usage](#usage)
 
 ## Description
 A single-page application using React to display my portfolio 
@@ -18,8 +19,11 @@ In Resume Page user will be able have a glimps of what is contain in my resume w
 - Express 
 - React
 - Javascript ,Custom css , JSX
+- Bootstarp
 ## Usage
--[main]()
--[contact]()
--[portfolio]()
--[resume]()
+Main / About Me
+![main](./twenty-react/src/assets/Image-13.png)
+Contact
+![contact](./twenty-react/src/assets/Image-15.png)
+Resume
+![resume](./twenty-react/src/assets/Image-14.png)

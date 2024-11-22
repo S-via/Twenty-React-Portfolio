@@ -46,7 +46,7 @@ export default function Portfolio() {
     return (
         <div>
 
-            <h2 id="portfolio">Portfolio</h2>
+        <h2 id="portfolio">Portfolio</h2>
         <div className='portfolio-container'>
             { card.map((card,index) => (
             <Project

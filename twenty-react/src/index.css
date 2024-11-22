@@ -4,6 +4,10 @@
     padding: 2rem;
     text-align: center;
 
+    main {
+        padding: 95px;
+        margin-top:50px ;
+    }
     a:hover {
         opacity: 0.5;
     }

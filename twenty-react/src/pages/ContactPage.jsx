@@ -44,7 +44,9 @@ export default function ContactPage() {
     return (
         // what it will return 
         <div className='contact-container'>
-            <h2>Contact Heading</h2>
+            <div className=" card w-75 mb-3">
+                <div className=" card-body">
+            <h2>Contact</h2>
             <form onSubmit={handlerSubmit}>
 
             
@@ -93,6 +95,8 @@ export default function ContactPage() {
 
 
             </form>
+        </div>
+        </div>
         </div>
     );
 }

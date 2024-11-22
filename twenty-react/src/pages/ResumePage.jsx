@@ -1,6 +1,7 @@
 // dowloadable resume 
 import React from 'react';
 import myPdf from '../assets/resume.pdf'
+import pdfLogo from '../assets/pdf-svgrepo-com.svg'
 
 export default function ResumePage() {
 
@@ -11,8 +12,9 @@ export default function ResumePage() {
 
 
                     <h2>Resume</h2>
-                    <p>Download my
-                        <a href={myPdf} download='resume.pdf'> Resume PDF</a>
+                    <p>Download My Resume
+                        <a href={myPdf} download='resume.pdf'> 
+                            <img src ={pdfLogo} style={{width:"50px",height:"auto"}}/></a>
                     </p>
                     <section>
                         <h3>Key Skills:</h3>

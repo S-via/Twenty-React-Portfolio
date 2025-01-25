@@ -1,6 +1,6 @@
 // dowloadable resume 
 import React from 'react';
-import myPdf from '../assets/resume.pdf'
+import myPdf from '../assets/Silvia_V_Web_Developer2025.pdf'
 import pdfLogo from '../assets/pdf-svgrepo-com.svg'
 
 export default function ResumePage() {

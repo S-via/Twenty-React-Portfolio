@@ -25,8 +25,8 @@ In Resume Page user will be able have a glimps of what is contain in my resume w
 - Bootstarp
 ## Usage
 Main / About Me
-![main](./twenty-react/src/assets/Image-13.png)
+![main]()
 Contact
-![contact](./twenty-react/src/assets/Image-15.png)
+![contact]()
 Resume
-![resume](./twenty-react/src/assets/Image-14.png)
+![resume]()

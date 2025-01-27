@@ -52,7 +52,7 @@ export default function ContactPage() {
             
                 <div className='mb-3'>
                     <input className='form-control'
-                    placeholder='Your Name'
+                    placeholder='Your Full Name'
                         type='text'
                         name='name'
                         value={formData.name}

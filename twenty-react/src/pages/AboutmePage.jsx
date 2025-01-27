@@ -6,20 +6,18 @@ export default function AboutmePage() {
                     <section>
                         <h2>About Me</h2>
                         {/* Photo avatar goes here */}
-                        <section><p>
-                            Im someone who always driven by curiosity and a genuine desire to grow.
-                            I love learning new things and challenging myself to think differently. I do my best work in
-                            places that value creativity, fresh ideas, and collaboraation- it's exciting to be part of growth.</p></section>
+                        <p>
+                            I’m someone who’s driven by curiosity and a genuine desire to grow. I thrive on learning new things, challenging myself to think differently, and finding creative solutions. My best work happens in environments that value creativity, fresh ideas, and collaboration, there is nothing more exciting than being part of a team driving growth and innovation.
+                        </p>
+                        <p>
+                            When I’m not working, you’ll often find me enjoying the outdoors, getting lost in a good book, or diving into a creative project. Whether it’s something hands on or simply experimenting with new ideas, these moments recharge me and keep my perspective fresh.
+                        </p>
+                        <p>
+                            For me, staying curious and creative isn’t just part of my work it’s a way of life.
+                        </p>
 
-                        <section><p>
-                            When im not working, you'll probably find me enjoying outdoors, getting lost ina good book, or diving into a creative project. Whether its something hands-on or just
-                            experimenting with new ideas, these moments help me recharge and keep my perspective fresh.</p></section>
-
-                    <section><p>For me, staying curios and creative isnt just a part of my work -it's how i approach life. </p></section>
-
-
-            </section>
-        </div>
+                    </section>
+                </div>
             </div >
         </div >
     )

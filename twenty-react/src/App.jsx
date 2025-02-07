@@ -17,7 +17,7 @@ function App() {
 
   return (
     <Router>
-      <div className='main'>
+      <div className='h-screen flex items-center justify-center bg-gradient-to-r from-slate-950 via-blue-900 to-slate-950 text-white'>
         <Header />
         <main>
           <Routes>

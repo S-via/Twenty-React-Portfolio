@@ -7,12 +7,12 @@ import React from 'react';
 function Navigation() {
     return (
         
-        <nav className='nav-bar'>
-            <ul className="nav nav-tabs">
-                <li className="nav-item"><Link class="nav-link active" aria-current="page" to="/"> About Me </Link></li>
-                <li className="nav-item"><Link class="nav-link active" aria-current="page" to="/portfolio"> Portfolio </Link></li>
-                <li className="nav-item"><Link  class="nav-link active" aria-current="page"to="/contact"> Contact </Link></li>
-                <li className="nav-item"><Link class="nav-link active" aria-current="page" to="/resume"> Resume</Link></li>
+        <nav className=''>
+            <ul className="">
+                <li className=""><Link class="nav-link active" aria-current="page" to="/"> About Me </Link></li>
+                <li className=""><Link class="nav-link active" aria-current="page" to="/portfolio"> Portfolio </Link></li>
+                <li className=""><Link  class="nav-link active" aria-current="page"to="/contact"> Contact </Link></li>
+                <li className=""><Link class="nav-link active" aria-current="page" to="/resume"> Resume</Link></li>
             </ul>
         </nav>
     )

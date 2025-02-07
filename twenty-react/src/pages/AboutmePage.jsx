@@ -1,20 +1,27 @@
+import myImage from '../assets/bwsilvia.jpg';
+
 export default function AboutmePage() {
     return (
-        <div className="aboutme-container">
-            <div className=" card w-75 mb-3">
-                <div className=" card-body">
+        <div className="">
+            <div className="">
+                <div className="">
                     <section>
-                        <h2>About Me</h2>
                         {/* Photo avatar goes here */}
-                        <p>
-                            I’m someone who’s driven by curiosity and a genuine desire to grow. I thrive on learning new things, challenging myself to think differently, and finding creative solutions. My best work happens in environments that value creativity, fresh ideas, and collaboration, there is nothing more exciting than being part of a team driving growth and innovation.
+                        {/* <img
+                            src={myImage}
+                            atl="silviav"
+                            className="w-80 h-70 rounded-full mx-auto shadow-lg backdrop-blur-md">
+
+                        </img> */}
+
+                        <h2 className="text-3xl font-bold mt-6">Backend Developer</h2>
+                        <p className="mt-4 text-lg">
+                            Hi, Im Silvia, specializing in API Development, cloud solucions
                         </p>
-                        <p>
-                            When I’m not working, you’ll often find me enjoying the outdoors, getting lost in a good book, or diving into a creative project. Whether it’s something hands on or simply experimenting with new ideas, these moments recharge me and keep my perspective fresh.
+                        <p className="mt-2 text-lg">
+                            Currently, I'm focused on improving my skills in Database optimization.
                         </p>
-                        <p>
-                            For me, staying curious and creative isn’t just part of my work it’s a way of life.
-                        </p>
+
 
                     </section>
                 </div>

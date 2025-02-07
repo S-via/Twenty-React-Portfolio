@@ -9,7 +9,6 @@ import myImage3 from '../assets/Image-8.png'
 import myImage4 from '../assets/Image-11.png'
 import myImage5 from '../assets/Image-12.png'
 
-// expert learning example below 
 
 export default function Portfolio() {
 

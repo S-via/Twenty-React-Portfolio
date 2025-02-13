@@ -9,7 +9,6 @@ import myImage3 from '../assets/Image-8.png'
 import myImage4 from '../assets/Image-11.png'
 import myImage5 from '../assets/Image-12.png'
 
-// expert learning example below 
 
 export default function Portfolio() {
 
@@ -44,10 +43,8 @@ export default function Portfolio() {
 
 
     return (
-        <div>
-
-        <h2 id="portfolio">Portfolio</h2>
-        <div className='portfolio-container'>
+        <div className="p-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-6">
             { card.map((card,index) => (
             <Project
             key={index}

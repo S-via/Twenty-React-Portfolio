@@ -4,7 +4,7 @@ import linkLogo from "../assets/linkedin-svgrepo-com.svg"
 
 function Footer () {
     return (
-        <footer>
+        <footer className="p-4 text-white flex justify-center space-x-6 fixed bottom-0 left-0 w-full">
             
             <a href="https://github.com/S-via">
             <img src ={gitLogo} style={{width:"50px",height:"auto"}}/></a>

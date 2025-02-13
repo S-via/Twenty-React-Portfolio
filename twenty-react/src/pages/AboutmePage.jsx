@@ -2,30 +2,30 @@ import myImage from '../assets/bwsilvia.jpg';
 
 export default function AboutmePage() {
     return (
-        <div className="">
-            <div className="">
-                <div className="">
-                    <section>
-                        {/* Photo avatar goes here */}
-                        {/* <img
+        <>
+
+            <section className='flex flex-col items-center justify-center min-h-screen text-center'>
+
+                {/*  <img
                             src={myImage}
                             atl="silviav"
-                            className="w-80 h-70 rounded-full mx-auto shadow-lg backdrop-blur-md">
+                            className="w-80 h-80 rounded-full mx-auto shadow-lg backdrop-blur-md">
 
                         </img> */}
 
-                        <h2 className="text-3xl font-bold mt-6">Backend Developer</h2>
-                        <p className="mt-4 text-lg">
-                            Hi, Im Silvia, specializing in API Development, cloud solucions
-                        </p>
-                        <p className="mt-2 text-lg">
-                            Currently, I'm focused on improving my skills in Database optimization.
-                        </p>
+                <h2 className="text-[8vw] md:text-[8vw] font-bold mt-4 leading-none"> Backend Developer</h2>
+                <section>
+                    <p> Hi, Im Silvia, specializing in API Development, Cloud Solucions
+                    </p>
+                    <p>
+                        Currently, I'm focused on improving my skills in Database Optimization.
+                    </p>
+                       <p>Follow my journey</p>
 
 
-                    </section>
-                </div>
-            </div >
-        </div >
-    )
+                </section>
+                </section>
+
+            </ >
+            )
 }

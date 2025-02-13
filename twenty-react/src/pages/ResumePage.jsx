@@ -6,47 +6,78 @@ import pdfLogo from '../assets/pdf-svgrepo-com.svg'
 export default function ResumePage() {
 
     return (
-        <div className="resume-container">
-            <div className="card w-75 mb-3">
-                <div className="card-body">
+        <>
 
+            <div>
+                <h2>Resume</h2>
+                <a href={myPdf} download='resume.pdf'>
+                    <img src={pdfLogo} style={{ width: "50px", height: "auto" }} /></a>
 
-                    <h2>Resume</h2>
-                    <p>Download My Resume
-                        <a href={myPdf} download='resume.pdf'> 
-                            <img src ={pdfLogo} style={{width:"50px",height:"auto"}}/></a>
-                    </p>
+                <section>
+                    <h3> Skills & Expertise</h3>
+                    <ul>
+                        {/* Add in a box  */}
+                        <li>Backend Development: Node.js, Express</li>
+                        {/* Add in a box  */}
+                        <li>Database Management: MongoDB, Mongoose, PostgreSQL </li>
+                        {/* Add in a box  */}
+                        <li>API Development: RESTful services, GraphQL </li>
+                        {/* Add in a box  */}
+                        <li>Version Control: Git, GitHub, VS Code</li>
+                        {/* Add in a box  */}
+                        <li>Frontend Development: React</li>
+                        {/* Add in a box  */}
+                        <li>UI/UX Design: Tailwind CSS, Bootstrap </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Professional Experience</h3>
+                    <ul>
+                        {/* box */}
+                        <li>Freelance</li>
+                        <li>Remote</li>
+                        <li>2024-Present</li>
+                       {/* bold */}
+                        <li>MERN Stack Developer</li>
+                        <li>Custom web applications for upcoming entreprnuers looking to increment their income</li>
+                        <li>Responsive and scalable frontend interfaces with React</li>
+
+                       {/*  box */}
+                       <li>Hispand</li>
+                       <li>Remote</li>
+                       <li>2021-2024</li>
+                       {/* bold */}
+                       <li>Customer Support Specialist</li>
+                       <li></li>
+
+                       {/*  box */}
+                       <li>AALL Insurance</li>
+                       <li>Remote</li>
+                       <li>2021-2024</li>
+                       {/* bold */}
+                       <li>Upfront Underwritter</li>
+                       <li></li>
+                        
+                    </ul>
+                    </section>
                     <section>
-                        <h3>Key Skills:</h3>
+                        <h3>Education</h3>
                         <ul>
-                            <li> Communication: Both verbal and written communication to effectively interact with customers and colleagues, and convey complex information clearly.
-                            </li>
-                            <li> Product knowledge: Deep understanding of products and policies to address customer inquiries and provide accurate information.
-                            </li>
-                            <li>Customer service orientation: Ability to prioritize customer needs, empathize with their concerns, and provide timely and satisfactory solutions.
-                            </li>
-                            <li>Problem-solving skills: Capacity to analyze customer issues, identify root causes, and propose appropriate resolutions within the framework of policies.
-                            </li>
+                            {/* box */}
+                            <li>Certificate in Full Stack Web Development</li>
+                            <li>UC Berkeley Extension</li>
+                            <li>2024</li>
+
+                            {/* box */}
+                            <li>Database Developer Practitioner</li>
+                            <li>De Anza College</li>
+                            <li>Currently Enrolled</li>
                         </ul>
                     </section>
 
-
-                    <section>
-                        <h3> Technical Skills:</h3>
-                        <ul>
-                            <li>Languages: JavaScript, HTML, CSS </li>
-                            <li>Frameworks: Node.js, Express</li>
-                            <li>Databases:  PostgreSQL </li>
-                            <li>Tools: Git, VS Code</li>
-                            <li>Other: APIs, RESTful services, Agile methodologies</li>
-
-
-                        </ul>
-                    </section>
-
-                </div>
             </div>
-        </div>
+
+        </>
     );
 }
 

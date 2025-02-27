@@ -17,9 +17,9 @@ function App() {
 
   return (
     <Router>
-      <div className='h-screen flex items-center justify-center bg-gradient-to-r from-slate-950 via-blue-900 to-slate-950 text-white'>
+      <div className='min-h-screen flex flex-col bg-gradient-to-r from-slate-950 via-blue-900 to-slate-950 text-white'>
         <Header />
-        <main>
+        <main className="flex-grow pt-20">
           <Routes>
             <Route path="/" element={<AboutMePage />} />
             <Route path="/portfolio" element={<Portfolio />} />

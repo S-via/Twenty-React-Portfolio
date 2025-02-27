@@ -9,72 +9,94 @@ export default function ResumePage() {
         <>
 
             <div>
-                <h2>Resume</h2>
-                <a href={myPdf} download='resume.pdf'>
-                    <img src={pdfLogo} style={{ width: "50px", height: "auto" }} /></a>
-
-                <section>
-                    <h3> Skills & Expertise</h3>
-                    <ul>
-                        {/* Add in a box  */}
-                        <li>Backend Development: Node.js, Express</li>
-                        {/* Add in a box  */}
-                        <li>Database Management: MongoDB, Mongoose, PostgreSQL </li>
-                        {/* Add in a box  */}
-                        <li>API Development: RESTful services, GraphQL </li>
-                        {/* Add in a box  */}
-                        <li>Version Control: Git, GitHub, VS Code</li>
-                        {/* Add in a box  */}
-                        <li>Frontend Development: React</li>
-                        {/* Add in a box  */}
-                        <li>UI/UX Design: Tailwind CSS, Bootstrap </li>
-                    </ul>
+                {/*  Resume */}
+                <div className="text-center">
+                <h2 className="text-3xl font-bold text-center">Download Resume</h2>
+                    <a href={myPdf} download='resume.pdf' >
+                        <img 
+                        src={pdfLogo}
+                        style={{ width: "50px", 
+                        height: "auto" }} />
+                    </a>
+                </div>
+                
+                {/* skills demo */}
+                <section className="space-y-4">
+                    <h3 className="text-2xl font-semibold">Skills & Expertise</h3>
+                    <div className="relative overflow-hidden">
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 animate-marquee">
+                            <div className="p-4 border border-gray-300 rounded-lg">
+                                <p className="font-bold">Backend Development</p>
+                                <p>Node.js, Express</p>
+                            </div>
+                            <div className="p-4 border border-gray-300 rounded-lg">
+                                <p className="font-bold">Database Management</p>
+                                <p>MongoDB, Mongoose, PostgreSQL</p>
+                            </div>
+                            <div className="p-4 border border-gray-300 rounded-lg">
+                                <p className="font-bold">API Development</p>
+                                <p>RESTful services, GraphQL</p>
+                            </div>
+                            <div className="p-4 border border-gray-300 rounded-lg">
+                                <p className="font-bold">Version Control</p>
+                                <p>Git, GitHub, VS Code</p>
+                            </div>
+                            <div className="p-4 border border-gray-300 rounded-lg">
+                                <p className="font-bold">Frontend Development</p>
+                                <p>React</p>
+                            </div>
+                            <div className="p-4 border border-gray-300 rounded-lg">
+                                <p className="font-bold">UI/UX Design</p>
+                                <p>Tailwind CSS, Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
                 </section>
-                <section>
-                    <h3>Professional Experience</h3>
-                    <ul>
-                        {/* box */}
-                        <li>Freelance</li>
-                        <li>Remote</li>
-                        <li>2024-Present</li>
-                       {/* bold */}
-                        <li>MERN Stack Developer</li>
-                        <li>Custom web applications for upcoming entreprnuers looking to increment their income</li>
-                        <li>Responsive and scalable frontend interfaces with React</li>
 
-                       {/*  box */}
-                       <li>Hispand</li>
-                       <li>Remote</li>
-                       <li>2021-2024</li>
-                       {/* bold */}
-                       <li>Customer Support Specialist</li>
-                       <li></li>
+                {/* Experience */}
+                <section className="bg-opacity-10 p-6 rounded-lg shadow-lg border border-slate-400 backdrop-blur-md">
+                    <h3 className="text-3xl font-bold mb-4">Professional Experience</h3>
 
-                       {/*  box */}
-                       <li>AALL Insurance</li>
-                       <li>Remote</li>
-                       <li>2021-2024</li>
-                       {/* bold */}
-                       <li>Upfront Underwritter</li>
-                       <li></li>
-                        
-                    </ul>
-                    </section>
-                    <section>
-                        <h3>Education</h3>
-                        <ul>
-                            {/* box */}
-                            <li>Certificate in Full Stack Web Development</li>
-                            <li>UC Berkeley Extension</li>
-                            <li>2024</li>
+                    <div className="space-y-6">
+                        <div className="space-y-2">
+                            <div className="font-bold text-2xl">Freelance</div>
+                            <div className="text-gray-500">Remote | Present</div>
+                            <div className="text-md font-bold">MERN Stack Developer</div>
+                            <ul className="list-disc pl-8">
+                                <li>Custom web applications for entrepreneurs looking to increment their income</li>
+                                <li>Responsive and scalable frontend interfaces with React</li>
+                            </ul>
+                        </div>
 
-                            {/* box */}
-                            <li>Database Developer Practitioner</li>
-                            <li>De Anza College</li>
-                            <li>Currently Enrolled</li>
-                        </ul>
-                    </section>
+                        <div className="space-y-2">
+                            <div className="font-bold text-2xl">Hispand</div>
+                            <div className="text-gray-500">Remote | 2021-2024</div>
+                            <div className="text-md font-bold">Customer Support Specialist</div>
+                        </div>
 
+                        <div className="space-y-2">
+                            <div className="font-bold text-2xl">AALL INSURANCE</div>
+                            <div className="text-gray-500">Remote | 2021-2024</div>
+                            <div className="text-md font-bold">Upfront Underwritter</div>
+                        </div>
+                    </div>
+                </section>
+
+                {/*  Education */}
+                <section className="bg-opacity-10 p-6 rounded-lg shadow-lg border border-slate-400 backdrop-blur-md">
+                    <h3 className="text-2xl font-semibold">Education</h3>
+                    <div className="space-y-4">
+                        <div className="space-y-2">
+                            <div className="font-bold text-lg">Certificate in Full Stack Web Development</div>
+                            <div className="text-gray-500">UC Berkeley Extension | 2024</div>
+                        </div>
+
+                        <div className="space-y-2">
+                            <div className="font-bold text-lg">Database Developer Practitioner</div>
+                            <div className="text-gray-500">De Anza College | Currently Enrolled</div>
+                        </div>
+                    </div>
+                </section>
             </div>
 
         </>

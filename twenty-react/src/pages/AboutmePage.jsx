@@ -14,13 +14,13 @@ export default function AboutmePage() {
                         </img> */}
 
                 <h2 className="text-[8vw] md:text-[8vw] font-bold mt-4 leading-none"> Backend Developer</h2>
-                <section>
-                    <p> Hi, Im Silvia, specializing in API Development, Cloud Solucions
+                <section className="mt-15">
+                    <p> Hi, Im Silvia, Specializing in API Development, Cloud Solucions
                     </p>
                     <p>
                         Currently, I'm focused on improving my skills in Database Optimization.
                     </p>
-                       <p>Follow my journey</p>
+                       <p className="mt-5">Follow my journey</p>
 
 
                 </section>
